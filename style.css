@@ -1,0 +1,256 @@
+/* PAGE 1 CSS */
+body{
+    background-color: #012030;
+}
+.container{
+    margin-left: 150px;
+    margin-right: 150px;;
+}
+.w{
+    color:white;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.q{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+    justify-content: flex-end;
+    margin-right: 8rem;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.add__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    background-color:  #00A5EC;
+    margin-right: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.items__lists__new1{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} 
+
+ .plus{
+    background-color: rgb(56, 202, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+    width:30px;
+    height: 30px;
+    border-radius:50%;
+    margin-left: 1100px;
+    margin-top: -80px;
+    text-decoration: none;
+    
+} 
+.addImage{
+    width: 30px;
+    height: 30px;
+    margin-right: 13px;
+    background-color: white;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/* PAGE 2 CSS */
+#qw, #open__item__page{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    }
+#root__id{
+    background-color: rgba(0,0,0);
+    position: fixed;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    visibility: hidden;
+    z-index: 1;
+     
+}
+
+
+.hello{
+    width: 400px;
+    height: 250px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding: 0 16px;
+    }
+
+.haalo{
+    height: 60px;
+    border-bottom: 1px solid #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    }
+
+.new__item{
+    color: red;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    
+    }
+
+.list_box{
+    height: 40px;
+    width:95%;
+     /* UI Properties */
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    color: #858585;
+    text-decoration: none;
+    }
+
+.add__list__button__header{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+    background-color: white;
+    }
+
+.add__button{
+    position: relative;
+    right:110px;
+    width: 100px;
+    height: 48px;
+    /* UI Properties */
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+.close__button{
+    position: relative;
+    right: 70px;
+    width: 100px;
+    height: 48px;
+/* UI Properties */
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child{
+    min-height: 300px;
+    height: fit-content;
+    width: 250px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+/* PAGE 4 CSS */
+.child_item{
+    min-height: 300px;
+    height: fit-content;
+    width: 250px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back__button__container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.back__icon{
+    transform: rotate(180deg);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: black;
+    margin-right: 10px;
+}
+
+.back__text{
+    font-size: 30px
+}
+.root{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.item__name{
+    font-size: 70px;
+    color: white;
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- page 1 HOME PAGE -->
+    <div class="container">
+        <h1 class="w">Tasks List</h1>
+        
+       
+        <div class="q">
+            <a onclick="openNextPage()" class="add__icon">+</a>
+            <a onclick="openNextPage()" class="items__lists__new1"> Add New Task</a>
+        </div> 
+        
+        <div id="parent"></div>
+    </div>
+    
+    
+    <!-- page 2 AFTER CLICKING ADD NEW TASK IN HOME-->
+    <div id="qw">
+        <div class="hello">
+            <div class="haalo">
+                <span class="new__item">Add New List</span>
+            </div>
+                <input type="text" value="" id="name" placeholder="Add New List" class="list_box"></input>
+            <div class="add__list__button__header">
+                <button onclick="addTask()" class="add__button">Add</button>
+                <button onclick="closeTask()" class="close__button">Close</button>
+                
+            </div>
+        </div>
+     
+    </div>
+
+    <!-- page 3 AFTER CLICKING ADD ITEM IN TODO-->
+    <div id="open__item__page">
+        <div class="hello">
+            <div class="haalo">
+                <span class="new__item">Add New Item</span>
+            </div>
+                <input type="text" value="" id="item_name" placeholder="Add New Item" class="list_box"></input>
+            <div class="add__list__button__header">
+                <button onclick="addItem()" class="add__button">Add</button>
+                <button onclick="closeItem()" class="close__button">Close</button>
+                
+            </div>
+        </div>
+     
+    </div>
+
+    <!-- page 4 AFTER CLICKING ON ANY FLEX BOX-->
+<div id="root__id">
+    <div class="root" >
+        <div class="back__button__container" onclick="backButton()">
+           <span class="back__icon">&#8680;</span>
+           <span class="back__text">Back</span>
+        </div>
+        <div class="item__name"></div>
+        <div onclick="openNextPage()" class="add__icon">+</div>
+    </div>
+    <div class="child_item"   id="item"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
